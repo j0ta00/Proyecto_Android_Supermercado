@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--item for our search view with its id-->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_title_menu"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/action_go_market"
+        android:icon="@drawable/ic_shopping_cart"
+        app:showAsAction="always"
+        android:title="@string/pay_title_menu" />
+
+    <item
+        android:id="@+id/action_filter"
+        android:title="@string/filter_title_menu"
+        app:showAsAction="never" />
+
+<!--    <item-->
+<!--        android:id="@+id/action_order"-->
+<!--        android:title="@string/order_tittle_menu"-->
+<!--        app:showAsAction="never" />-->
+
+</menu>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PMDMO_Practica_Supermercado</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="img_url_supermarket">https://dcassetcdn.com/design_img/3627331/753743/753743_20062185_3627331_ea6e6e62_image.jpg</string>
+    <string name="txtUsername">Username</string>
+    <string name="txtPassword">Password</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="register_btn">REGISTER</string>
+    <string name="txtVwLoginUser">New user?</string>
+    <string name="txtVwLoginUser2">Sign Up</string>
+    <string name="required_ed">Required</string>
+    <string name="dni_incorrect_ed">Invalid DNI</string>
+    <string name="dialog_tittle_login">User or Password Incorrect</string>
+    <string name="accept_btn">Aceptar</string>
+    <string name="dialog_message_login">The username or password is not correct.</string>
+    <string name="search_title_menu">Search</string>
+    <string name="filter_title_menu">Search filter</string>
+    <string name="order_tittle_menu">Order</string>
+    <string name="search_hint">Search...</string>
+    <string name="dialog_filter_tittle">Filtro de busqueda</string>
+    <string name="dialog_filter_confirm">Aceptar</string>
+    <string name="dialog_filter_decline">Cancelar</string>
+    <string name="dialog_filter_category">Categoria</string>
+    <string name="dialog_filter_order_by">Ordenar por</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtName">Name</string>
+    <string name="txtSurname">First Name</string>
+    <string name="txtLastName">Last Name</string>
+    <string name="txtPhone">Phone</string>
+    <string name="invalid_email_ed">Invalid email</string>
+    <string name="dialog_tittle_register">The user already exits</string>
+    <string name="dialog_message_register">The username already exists in the DB, please write other</string>
+    <string name="card_btn_buy">Shop</string>
+    <string name="card_btn_add">Add</string>
+    <string name="pay_title_menu">Pay</string>
+</resources>

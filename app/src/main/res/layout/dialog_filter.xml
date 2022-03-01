@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--TODO CONSEGUIR QUE SALGA LAS FLECHITAS DEL SPINNER ALINEADAS-->
+
+    <TextView
+        android:id="@+id/tv_order_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_padding_default"
+        android:layout_marginTop="@dimen/common_padding_default"
+        android:text="@string/dialog_filter_order_by"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Spinner
+        android:id="@+id/spinner_order_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_padding_default"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_order_by"
+        app:layout_constraintStart_toEndOf="@id/tv_order_by"
+        app:layout_constraintTop_toTopOf="@+id/tv_order_by" />
+
+    <TextView
+        android:id="@+id/tv_filter_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_padding_default"
+        android:layout_marginTop="@dimen/common_padding_default"
+        android:text="@string/dialog_filter_category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_order_by" />
+
+    <Spinner
+        android:id="@+id/spinner_categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_filter_category"
+        app:layout_constraintStart_toStartOf="@id/spinner_order_by"
+        app:layout_constraintTop_toTopOf="@id/tv_filter_category" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
